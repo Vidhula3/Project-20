@@ -89,10 +89,12 @@ function draw() {
 function makeCatWalk(){
 
         mouse.addAnimation("mouseTeasing", mouseImg2)
-        mouse.changeAnimation("mouseTeasing");
+        mouse.changeAnimation("mouseHappy");
         mouse.frameDelay = 25; 
 
         cat.velocityX = -5; 
         cat.addAnimation("catRunning", catImg2);
         cat.changeAnimation("catRunning");
+
 }
+
